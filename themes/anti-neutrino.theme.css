@@ -1,0 +1,45 @@
+# Vencord Theme 
+### Anti-Neutrino
+```css
+/**
+ * @name Anti-Neutrino
+ * @version 1.0
+ * @description A fork of Neuton Nova
+ * @author sx66
+ *//*
+*/
+@import url("https://xcruxiex.github.io/themes/themes-cores/neutron.css");
+@import url("https://xcruxiex.github.io/themes/core/badges.css");
+@import url("https://xcruxiex.github.io/themes/core/custom-font.css");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"); /* Custom font import link (see fonts.google.com) */
+/*##########################################################################
+
+                 CHANGE VALUES BELOW TO CUSTOMIZE YOU THEME
+
+##########################################################################*/
+:root {
+  /* COLORS */
+  --themeColor1: rgb(250, 140, 77); /* Theme's color 1 */
+  --themeColor2: rgb(120, 131, 173); /* Theme's color 2 */
+
+  /* CUSTOM FONT */
+  --customFont: 'JetBrainsMono ', monospace; /* Custom font, change the name in 'font name here', you must import the font first */
+
+  /* HOME BUTTON */
+  --homeImage: url('https://i.imgur.com/hFGBumI.png');/* Home button image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
+  --homeImageSize: cover;/* To cover the button, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
+
+  /* BACKGROUND */
+  --backgroundImage: url('https://i.imgur.com/qzDrVYt.png');/* Backround image, must be a direct link | You can also set it to a gradient, google "css gradient"*/
+  --backgroundColor: rgba(7, 23, 13, 0.5); /* Background color */
+  --backgroundPosition: center; /* Image position | center, left, right, bottom, top */
+  --backgroundSize: Cover; /* To cover the entire app, set to "cover". You can also set it to "100% 100%" but the image will be stretched. Set to "contain" to see the entire image */
+  --backgroundRepeat: no-repeat; /* if you want the image to repeat | Google "css background repeat" */
+  --backgroundBlur:0px; /* Set to 0 to remove blur | Set to 10px for average blur */
+  --backgroundOpacity: .6; /* 0 is transparent */
+
+  /* CODE BLOCKS */
+  --backgroundCode: rgba(0,10,0,.5);
+  --backgroundName: rgba(0,0,0,.5);
+}
+```
